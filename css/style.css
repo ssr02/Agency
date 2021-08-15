@@ -1,0 +1,321 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+  }
+  nav {
+    display: flex;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    justify-content: space-around;
+    text-align: center;
+    font-family: 'Poppins',sans-serif;
+    min-height: 8vh;
+  }
+  .logo {
+    font-size: 20px;
+    color:white;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    margin-top: 1%;;
+  }
+  .nav-links{
+    display:flex;
+    justify-content: space-around;
+    width: 50%;
+    margin-top: 1%;;
+  }
+  .nav-links li{
+    list-style: none;
+  }
+  .nav-links a{
+    color:white;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .burger {
+    margin-top: 1%;
+    display:none;
+    cursor: pointer;
+  }
+  .burger div{
+    width:25px;
+    height :3px;
+    background-color: white;
+    margin:5px;
+  }
+  
+  .btn {
+    margin-top: 0;
+    width: 100px;
+    color:black;
+    background-color: white;
+    border-radius: 20px;
+  }
+  
+  
+  
+  
+  
+  
+  .div1 {
+    background-color: #3FC5F0;
+    background-image: url("../images/desktop/image-header.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 550px;
+    background-size: cover;
+    background-position: center;
+  }
+  h1 {
+    font-size: 6.5vw;
+    text-align: center;
+    color : white;
+    position : absolute;
+    top : 15%;
+    left: 20%;
+    font-family: "Fraunces",serif;
+    text-transform: uppercase;
+  }
+  .svg {
+    position: absolute;
+    top : 35%;
+    left : 48%;
+  }
+  .row {
+    padding: 0;
+    margin: 0;
+  }
+  .img {
+    background-image:url(../images/desktop/image-transform.jpg);
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .divtwo{
+    padding: 6% 6%;
+    text-align: center;
+  }
+  h2 {
+    font-family: "Fraunces",serif;
+    margin-bottom: 5%;
+    font-weight: 700;
+    font-size: 50px;
+  }
+  p {
+    font-family: "Barlow",sans-serif;
+    font-size: 18px;
+    color: hsl(232, 10%, 55%);
+  }
+  .smudge {
+    font-family: "Barlow",sans-serif;
+    font-size: 18px;
+    color: hsl(213, 9%, 39%);
+    margin-top: 5%;
+    text-decoration:underline;
+    text-decoration-color:hsl(7, 99%, 70%);
+    text-decoration-style: solid;
+    text-decoration-thickness : 5px;
+  }
+  .img2 {
+    background-image:url(../images/desktop/image-stand-out.jpg);
+    background-color: #FF6B6B;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+  
+  }
+  
+  .img3{
+    background-image:url(../images/desktop/image-graphic-design.jpg);
+    background-size: cover;
+    height: 600px;
+    background-position: center;
+  
+  }
+  .img4{
+    background-image:url(../images/desktop/image-photography.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    background-position: center;
+  
+  
+  }
+  
+  
+  .img3 h3{
+    position: absolute;
+    font-family: "Fraunces",serif;
+    bottom: 27%;
+    left:32%;
+    margin-bottom: 3%;
+  }
+  .img3 p{
+    position: absolute;
+    font-size: 17px;
+    bottom: 10%;
+    left:10%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 0;
+    margin-top: 2%;
+  }
+  .img4 h3{
+    position: absolute;
+    font-family: "Fraunces",serif;
+    bottom: 27%;
+    left:35%;
+    margin-bottom: 3%;
+  }
+  .img4 p{
+    position: absolute;
+    font-size: 18px;
+    bottom: 10%;
+    left:10%;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 0;
+  }
+  .div3 {
+    padding: 10%;
+    padding-top: 6%;
+    text-align: center;
+  }
+  .div3 img{
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+  }
+  .div3 h3{
+    font-family: "Fraunces",serif;
+    font-size: 30px;
+    margin-bottom: 5%;
+    color: hsl(210, 4%, 67%);
+    text-transform: uppercase;
+    letter-spacing: 4px;
+  
+  }
+  .h4p1{
+    line-height: 2;
+    font-size: 16px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+  .div3 h4{
+    margin-top: 10%;
+    margin-bottom: 0;
+    font-family: "Fraunces",serif;
+    font-weight: 700;
+  }
+  .h4p2{
+    margin-top: 1%;;
+    font-size: 15px;
+    color: hsl(210, 4%, 67%);
+  }
+  .img5{
+    background-image: url(../images/desktop/image-gallery-milkbottles.jpg);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .img6{
+    background-image: url(../images/desktop/image-gallery-orange.jpg);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  
+  }
+  .img7{
+    background-image: url(../images/desktop/image-gallery-cone.jpg);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .img8{
+    background-image: url(../images/desktop/image-gallery-sugarcubes.jpg);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .div4 {
+    text-align: center;
+    padding: 5%;
+    background-color: hsl(168, 34%, 41%);
+  
+  }
+  .div4one{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+    margin-left: 35%;
+    margin-top: 3%;
+  }
+  .div4one p{
+    color: hsl(167, 40%, 24%);
+  
+  }
+  .div4two{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+    margin-left: 35%;
+    margin-top: 3%;
+  }
+  .attribution{
+    background-color: hsl(168, 34%, 41%);
+    text-align:center;
+    color: hsl(167, 40%, 24%);;
+  
+  }
+  @media only screen and (max-width:768px) {
+    body{
+      overflow-x: hidden;
+    }
+    .nav-links{
+      position:absolute;
+      top:8vh;
+      height: 40vh;
+      right: 0;
+      background-color: black;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      width: 40%;
+      border-radius: 20px;
+      z-index: 1;
+      transform: translateX(100%);
+  
+    }
+    .nav-links a{
+      color : #5EDFFF;
+    }
+    .burger{
+      display: block;
+    }
+    h1 {
+      font-size: 7vw;
+    }
+  
+    .div2 {
+      display: flex;
+      flex-direction: column-reverse;
+    }
+  
+  }
+  .pressed {
+    transform: translateX(0);
+  }
